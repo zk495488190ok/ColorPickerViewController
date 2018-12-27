@@ -29,6 +29,7 @@
 		D032A00121D31BE80003055D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FF721D31BE80003055D /* MASViewConstraint.m */; };
 		D032A00221D31BE80003055D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FF821D31BE80003055D /* MASViewAttribute.m */; };
 		D032A00621D375040003055D /* DivoomColorLumpView.m in Sources */ = {isa = PBXBuildFile; fileRef = D032A00521D375040003055D /* DivoomColorLumpView.m */; };
+		D0FAC9EC21D46D8E0083F618 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = D0FAC9EB21D46D8E0083F618 /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		D0329FF821D31BE80003055D /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
 		D032A00421D375040003055D /* DivoomColorLumpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivoomColorLumpView.h; sourceTree = "<group>"; };
 		D032A00521D375040003055D /* DivoomColorLumpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivoomColorLumpView.m; sourceTree = "<group>"; };
+		D0FAC9EB21D46D8E0083F618 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				D0329FC221D1D3210003055D /* LaunchScreen.storyboard */,
 				D0329FC521D1D3210003055D /* Info.plist */,
 				D0329FC621D1D3210003055D /* main.m */,
+				D0FAC9EB21D46D8E0083F618 /* Untitled.gif */,
 				D0329FDF21D31BE80003055D /* Masonry */,
 			);
 			path = DvioomColorPicker;
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0329FC421D1D3210003055D /* LaunchScreen.storyboard in Resources */,
+				D0FAC9EC21D46D8E0083F618 /* Untitled.gif in Resources */,
 				D0329FC121D1D3210003055D /* Assets.xcassets in Resources */,
 				D0329FBF21D1D31F0003055D /* Main.storyboard in Resources */,
 			);

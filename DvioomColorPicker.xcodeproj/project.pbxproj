@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0329FB921D1D31F0003055D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FB821D1D31F0003055D /* AppDelegate.m */; };
+		D0329FBC21D1D31F0003055D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FBB21D1D31F0003055D /* ViewController.m */; };
+		D0329FBF21D1D31F0003055D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0329FBD21D1D31F0003055D /* Main.storyboard */; };
+		D0329FC121D1D3210003055D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0329FC021D1D3210003055D /* Assets.xcassets */; };
+		D0329FC421D1D3210003055D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0329FC221D1D3210003055D /* LaunchScreen.storyboard */; };
+		D0329FC721D1D3210003055D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FC621D1D3210003055D /* main.m */; };
+		D0329FD021D1D3470003055D /* DivoomColorPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FCF21D1D3470003055D /* DivoomColorPickerVC.m */; };
+		D0329FD421D1D3B70003055D /* DivoomColorBarPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FD321D1D3B70003055D /* DivoomColorBarPickerView.m */; };
+		D0329FD721D1D3FB0003055D /* DivoomColorSquareView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FD621D1D3FB0003055D /* DivoomColorSquareView.m */; };
+		D0329FDA21D1D4CD0003055D /* HSBSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FD921D1D4CD0003055D /* HSBSupport.m */; };
+		D0329FDD21D1D92D0003055D /* ColorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FDC21D1D92D0003055D /* ColorIndicatorView.m */; };
+		D0329FF921D31BE80003055D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FE121D31BE80003055D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D0329FFA21D31BE80003055D /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FEA21D31BE80003055D /* ViewController+MASAdditions.m */; };
+		D0329FFB21D31BE80003055D /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FEE21D31BE80003055D /* MASCompositeConstraint.m */; };
+		D0329FFC21D31BE80003055D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FEF21D31BE80003055D /* MASConstraintMaker.m */; };
+		D0329FFD21D31BE80003055D /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FF021D31BE80003055D /* MASLayoutConstraint.m */; };
+		D0329FFE21D31BE80003055D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FF121D31BE80003055D /* NSArray+MASAdditions.m */; };
+		D0329FFF21D31BE80003055D /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FF221D31BE80003055D /* View+MASAdditions.m */; };
+		D032A00021D31BE80003055D /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FF521D31BE80003055D /* MASConstraint.m */; };
+		D032A00121D31BE80003055D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FF721D31BE80003055D /* MASViewConstraint.m */; };
+		D032A00221D31BE80003055D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D0329FF821D31BE80003055D /* MASViewAttribute.m */; };
+		D032A00621D375040003055D /* DivoomColorLumpView.m in Sources */ = {isa = PBXBuildFile; fileRef = D032A00521D375040003055D /* DivoomColorLumpView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0329FB421D1D31F0003055D /* DvioomColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DvioomColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0329FB721D1D31F0003055D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0329FB821D1D31F0003055D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0329FBA21D1D31F0003055D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0329FBB21D1D31F0003055D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0329FBE21D1D31F0003055D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0329FC021D1D3210003055D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0329FC321D1D3210003055D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0329FC521D1D3210003055D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0329FC621D1D3210003055D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0329FCE21D1D3470003055D /* DivoomColorPickerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivoomColorPickerVC.h; sourceTree = "<group>"; };
+		D0329FCF21D1D3470003055D /* DivoomColorPickerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivoomColorPickerVC.m; sourceTree = "<group>"; };
+		D0329FD221D1D3B70003055D /* DivoomColorBarPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivoomColorBarPickerView.h; sourceTree = "<group>"; };
+		D0329FD321D1D3B70003055D /* DivoomColorBarPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivoomColorBarPickerView.m; sourceTree = "<group>"; };
+		D0329FD521D1D3FB0003055D /* DivoomColorSquareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivoomColorSquareView.h; sourceTree = "<group>"; };
+		D0329FD621D1D3FB0003055D /* DivoomColorSquareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivoomColorSquareView.m; sourceTree = "<group>"; };
+		D0329FD821D1D4CD0003055D /* HSBSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSBSupport.h; sourceTree = "<group>"; };
+		D0329FD921D1D4CD0003055D /* HSBSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSBSupport.m; sourceTree = "<group>"; };
+		D0329FDB21D1D92D0003055D /* ColorIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorIndicatorView.h; sourceTree = "<group>"; };
+		D0329FDC21D1D92D0003055D /* ColorIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorIndicatorView.m; sourceTree = "<group>"; };
+		D0329FE021D31BE80003055D /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D0329FE121D31BE80003055D /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D0329FE221D31BE80003055D /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D0329FE321D31BE80003055D /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D0329FE421D31BE80003055D /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0329FE521D31BE80003055D /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D0329FE621D31BE80003055D /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D0329FE721D31BE80003055D /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D0329FE821D31BE80003055D /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D0329FE921D31BE80003055D /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D0329FEA21D31BE80003055D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D0329FEB21D31BE80003055D /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D0329FEC21D31BE80003055D /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D0329FED21D31BE80003055D /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D0329FEE21D31BE80003055D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D0329FEF21D31BE80003055D /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D0329FF021D31BE80003055D /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D0329FF121D31BE80003055D /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D0329FF221D31BE80003055D /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D0329FF321D31BE80003055D /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D0329FF421D31BE80003055D /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D0329FF521D31BE80003055D /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D0329FF621D31BE80003055D /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D0329FF721D31BE80003055D /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D0329FF821D31BE80003055D /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D032A00421D375040003055D /* DivoomColorLumpView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DivoomColorLumpView.h; sourceTree = "<group>"; };
+		D032A00521D375040003055D /* DivoomColorLumpView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DivoomColorLumpView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0329FB121D1D31F0003055D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0329FAB21D1D31F0003055D = {
+			isa = PBXGroup;
+			children = (
+				D0329FB621D1D31F0003055D /* DvioomColorPicker */,
+				D0329FB521D1D31F0003055D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0329FB521D1D31F0003055D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0329FB421D1D31F0003055D /* DvioomColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0329FB621D1D31F0003055D /* DvioomColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D0329FCD21D1D32E0003055D /* DivoomColorPickerVC */,
+				D0329FB721D1D31F0003055D /* AppDelegate.h */,
+				D0329FB821D1D31F0003055D /* AppDelegate.m */,
+				D0329FBA21D1D31F0003055D /* ViewController.h */,
+				D0329FBB21D1D31F0003055D /* ViewController.m */,
+				D0329FBD21D1D31F0003055D /* Main.storyboard */,
+				D0329FC021D1D3210003055D /* Assets.xcassets */,
+				D0329FC221D1D3210003055D /* LaunchScreen.storyboard */,
+				D0329FC521D1D3210003055D /* Info.plist */,
+				D0329FC621D1D3210003055D /* main.m */,
+				D0329FDF21D31BE80003055D /* Masonry */,
+			);
+			path = DvioomColorPicker;
+			sourceTree = "<group>";
+		};
+		D0329FCD21D1D32E0003055D /* DivoomColorPickerVC */ = {
+			isa = PBXGroup;
+			children = (
+				D0329FDE21D310000003055D /* View */,
+				D0329FD821D1D4CD0003055D /* HSBSupport.h */,
+				D0329FD921D1D4CD0003055D /* HSBSupport.m */,
+				D0329FCE21D1D3470003055D /* DivoomColorPickerVC.h */,
+				D0329FCF21D1D3470003055D /* DivoomColorPickerVC.m */,
+			);
+			path = DivoomColorPickerVC;
+			sourceTree = "<group>";
+		};
+		D0329FDE21D310000003055D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0329FDB21D1D92D0003055D /* ColorIndicatorView.h */,
+				D0329FDC21D1D92D0003055D /* ColorIndicatorView.m */,
+				D0329FD221D1D3B70003055D /* DivoomColorBarPickerView.h */,
+				D0329FD321D1D3B70003055D /* DivoomColorBarPickerView.m */,
+				D0329FD521D1D3FB0003055D /* DivoomColorSquareView.h */,
+				D0329FD621D1D3FB0003055D /* DivoomColorSquareView.m */,
+				D032A00421D375040003055D /* DivoomColorLumpView.h */,
+				D032A00521D375040003055D /* DivoomColorLumpView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0329FDF21D31BE80003055D /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D0329FE021D31BE80003055D /* MASCompositeConstraint.h */,
+				D0329FE121D31BE80003055D /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D0329FE221D31BE80003055D /* MASConstraint+Private.h */,
+				D0329FE321D31BE80003055D /* MASLayoutConstraint.h */,
+				D0329FE421D31BE80003055D /* NSArray+MASShorthandAdditions.h */,
+				D0329FE521D31BE80003055D /* MASConstraintMaker.h */,
+				D0329FE621D31BE80003055D /* View+MASAdditions.h */,
+				D0329FE721D31BE80003055D /* NSArray+MASAdditions.h */,
+				D0329FE821D31BE80003055D /* MASUtilities.h */,
+				D0329FE921D31BE80003055D /* MASViewAttribute.h */,
+				D0329FEA21D31BE80003055D /* ViewController+MASAdditions.m */,
+				D0329FEB21D31BE80003055D /* MASViewConstraint.h */,
+				D0329FEC21D31BE80003055D /* MASConstraint.h */,
+				D0329FED21D31BE80003055D /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D0329FEE21D31BE80003055D /* MASCompositeConstraint.m */,
+				D0329FEF21D31BE80003055D /* MASConstraintMaker.m */,
+				D0329FF021D31BE80003055D /* MASLayoutConstraint.m */,
+				D0329FF121D31BE80003055D /* NSArray+MASAdditions.m */,
+				D0329FF221D31BE80003055D /* View+MASAdditions.m */,
+				D0329FF321D31BE80003055D /* View+MASShorthandAdditions.h */,
+				D0329FF421D31BE80003055D /* Masonry.h */,
+				D0329FF521D31BE80003055D /* MASConstraint.m */,
+				D0329FF621D31BE80003055D /* ViewController+MASAdditions.h */,
+				D0329FF721D31BE80003055D /* MASViewConstraint.m */,
+				D0329FF821D31BE80003055D /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0329FB321D1D31F0003055D /* DvioomColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0329FCA21D1D3210003055D /* Build configuration list for PBXNativeTarget "DvioomColorPicker" */;
+			buildPhases = (
+				D0329FB021D1D31F0003055D /* Sources */,
+				D0329FB121D1D31F0003055D /* Frameworks */,
+				D0329FB221D1D31F0003055D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DvioomColorPicker;
+			productName = DvioomColorPicker;
+			productReference = D0329FB421D1D31F0003055D /* DvioomColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0329FAC21D1D31F0003055D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = zhuk;
+				TargetAttributes = {
+					D0329FB321D1D31F0003055D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D0329FAF21D1D31F0003055D /* Build configuration list for PBXProject "DvioomColorPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0329FAB21D1D31F0003055D;
+			productRefGroup = D0329FB521D1D31F0003055D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0329FB321D1D31F0003055D /* DvioomColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0329FB221D1D31F0003055D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0329FC421D1D3210003055D /* LaunchScreen.storyboard in Resources */,
+				D0329FC121D1D3210003055D /* Assets.xcassets in Resources */,
+				D0329FBF21D1D31F0003055D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0329FB021D1D31F0003055D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D032A00021D31BE80003055D /* MASConstraint.m in Sources */,
+				D0329FFE21D31BE80003055D /* NSArray+MASAdditions.m in Sources */,
+				D0329FD021D1D3470003055D /* DivoomColorPickerVC.m in Sources */,
+				D0329FD721D1D3FB0003055D /* DivoomColorSquareView.m in Sources */,
+				D0329FF921D31BE80003055D /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D032A00221D31BE80003055D /* MASViewAttribute.m in Sources */,
+				D0329FD421D1D3B70003055D /* DivoomColorBarPickerView.m in Sources */,
+				D032A00121D31BE80003055D /* MASViewConstraint.m in Sources */,
+				D0329FDA21D1D4CD0003055D /* HSBSupport.m in Sources */,
+				D032A00621D375040003055D /* DivoomColorLumpView.m in Sources */,
+				D0329FFC21D31BE80003055D /* MASConstraintMaker.m in Sources */,
+				D0329FFD21D31BE80003055D /* MASLayoutConstraint.m in Sources */,
+				D0329FFF21D31BE80003055D /* View+MASAdditions.m in Sources */,
+				D0329FFB21D31BE80003055D /* MASCompositeConstraint.m in Sources */,
+				D0329FBC21D1D31F0003055D /* ViewController.m in Sources */,
+				D0329FFA21D31BE80003055D /* ViewController+MASAdditions.m in Sources */,
+				D0329FC721D1D3210003055D /* main.m in Sources */,
+				D0329FDD21D1D92D0003055D /* ColorIndicatorView.m in Sources */,
+				D0329FB921D1D31F0003055D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0329FBD21D1D31F0003055D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0329FBE21D1D31F0003055D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0329FC221D1D3210003055D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0329FC321D1D3210003055D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0329FC821D1D3210003055D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0329FC921D1D3210003055D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0329FCB21D1D3210003055D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX5444CPZV;
+				INFOPLIST_FILE = DvioomColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhuk.DvioomColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0329FCC21D1D3210003055D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX5444CPZV;
+				INFOPLIST_FILE = DvioomColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhuk.DvioomColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0329FAF21D1D31F0003055D /* Build configuration list for PBXProject "DvioomColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0329FC821D1D3210003055D /* Debug */,
+				D0329FC921D1D3210003055D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0329FCA21D1D3210003055D /* Build configuration list for PBXNativeTarget "DvioomColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0329FCB21D1D3210003055D /* Debug */,
+				D0329FCC21D1D3210003055D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0329FAC21D1D31F0003055D /* Project object */;
+}
